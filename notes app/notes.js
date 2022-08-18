@@ -1,4 +1,4 @@
-import fs, { read } from 'fs'
+import fs from 'fs'
 import chalk from 'chalk'
 
 const addNote = (title, body) => {
