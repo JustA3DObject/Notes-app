@@ -1,8 +1,5 @@
 import fs, { read } from 'fs'
 import chalk from 'chalk'
-const getNotes = () => {
-    return 'Your Notes....'
-}
 
 const addNote = (title, body) => {
     const notes = loadNotes()
@@ -77,4 +74,4 @@ const loadNotes = () => {
 
  }
 
-export default {getNotes: getNotes, addNote: addNote, removeNote: removeNote, listNotes: listNotes, readNote: readNote}
+export default {addNote: addNote, removeNote: removeNote, listNotes: listNotes, readNote: readNote}
